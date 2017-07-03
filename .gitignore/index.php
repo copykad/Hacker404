@@ -3,7 +3,7 @@
  
 $strAccessToken = "jMYoqtQhvLLDUSEsctfBSAlMChPobu6BHfne0Hz1vKn/ELCNDnI8j8HdkEwM9ObvIVAXW791XLlQylQkWrCWnbC2LnQQD7T03ut+L6AwZ8BRohazLMEDVvj8ebus/M+sECOCG9ctQjX4Xh0VfOhk3QdB04t89/1O/w1cDnyilFU=";
  
-$content = file_get_contents('php://input');
+$content = file_get_contents('https://secure-lake-42414.herokuapp.com/index.php');
 $arrJson = json_decode($content, true);
  
 $strUrl = "https://api.line.me/v2/bot/message/reply";
